@@ -12,12 +12,12 @@ h1 {
 }
 
 h2 {
-    font-family: sans-serif;
+    font-family: arial, sans-serif;
     font-weight: 100;
-    font-size: 15px;
+    font-size: 13px;
     margin-left: 30%;
     margin-right: 30%;
-    margin-bottom: 20px;
+    margin-top: 15px;
     color: gray;
 }
 
@@ -31,11 +31,35 @@ h2 {
 .mysite-footer {
     font-family: poppins;
     color: white;
+    text-align: center;
+    
 }
 
 .mysite-content {
     flex: 1;
 }
+a {
+    text-decoration: none;
+    transition-duration: 0.4s;
+
+}
+a:link {
+    color:white;
+}
+
+a:active {
+    color: #8C1B42;
+}
+
+a:visited {
+    color: #1B428C;
+}
+
+a:hover {
+    color: #8C1B42;
+}
+
+
 
 .congrats {
     font-family: "poppins", sans-serif;
@@ -46,6 +70,21 @@ h2 {
     justify-content: space-between;
     color: white;
     font-size: 40px;
+}
+
+#btnReset, #btn
+{
+    font-family: "poppins";
+    border-radius: 10px;
+    padding: 7px 10px;
+    font-size: 12px;
+    transition-duration: 0.3s;
+ 
+}
+
+#btn:hover, #btnReset:hover {
+    background-color:#8C1B42;
+    color: white;
 }
 
 img {
